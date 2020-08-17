@@ -1,0 +1,99 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.ContainerSignUp {
+	position: relative;
+    background:url('https://blogs.ceibal.edu.uy/formacion/wp-content/uploads/2018/04/isologotipo-horizontal-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ContainerHeaderBG {
+	width: 1000px;
+    height: 900px;
+}
+
+.signupContainer {
+	width: 500px!important;
+	max-width: 90%!important;
+	top: 70px!important;
+	left: 50%!important;
+	transform: translateX(calc(-50% + 0.1px));
+	position: absolute!important;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 15px 9px 26px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	margin: 0 auto;
+}
+
+.box h1 {
+	text-align: center;
+	margin: 40px auto;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.box input {
+	font-family: 'Poppins', sans-serif;
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	padding: 5px 20px;
+	text-align: left;
+	background: #F8F8F8;
+	color: #fff;
+	border: 0;
+	border-radius: 20px;
+	margin-bottom: 20px;
+  	color: #000;
+}
+
+.box input:focus,
+.box input:active,
+.box button:focus,
+.box button:active {
+	outline: none;
+}
+
+.box label {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.box button {
+	background: #FE6047;
+	border: 0;
+	color: #fff;
+	padding: 5px;
+	font-size: 20px;
+	width: 300px;
+	margin: 40px auto;
+	display: block;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.box button:active {
+	background: #27ae60;
+}
+
+.box p {
+	font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.box p span {
+	cursor: pointer;
+	color: #666;
+}
