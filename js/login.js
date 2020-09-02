@@ -25,5 +25,10 @@ document.getElementById('button').addEventListener("click", function(e){
             alert("Ingrese su contraseña");
             valid = false;
         }
+
+        if (valid){
+            localStorage.setItem("User-Logged", JSON.stringify({ email: user.value }));
+            window.location = "cover.html";
+        }
     });
 });
