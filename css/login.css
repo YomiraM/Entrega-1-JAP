@@ -1,21 +1,22 @@
+html,
 body {
-	padding: 0;
-	margin: 0;
+    height: 100%;
 }
 
-.ContainerSignUp {
-	position: relative;
-    background:url('https://blogs.ceibal.edu.uy/formacion/wp-content/uploads/2018/04/isologotipo-horizontal-2.png');
+.background {
+    background-image:url('https://blogs.ceibal.edu.uy/formacion/wp-content/uploads/2018/04/isologotipo-horizontal-2.png');
     background-size: cover;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
 }
 
 .ContainerHeaderBG {
-	width: 1000px;
-    height: 900px;
+	width: 100vw;
+	height: 100vh;
 }
 
-.signupContainer {
+.signUpContainer {
 	width: 500px!important;
 	max-width: 90%!important;
 	top: 70px!important;
@@ -90,7 +91,7 @@ body {
 
 .box a {
     text-decoration: none;
-    color: black;
+	color: black;
 }
 
 .box p span {
