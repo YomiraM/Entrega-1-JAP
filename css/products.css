@@ -1,0 +1,49 @@
+#sortAsc,
+#sortDesc,
+#sortByCount {
+    border: 1px solid rgb(155, 155, 155);
+    margin-top: 0.5rem;
+    padding-top: 3px;
+}
+
+#sortAsc {
+    border-bottom-left-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+}
+
+#sortByCount {
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+#order {
+    margin: 0.7rem;
+    padding-top: 3px;
+}
+
+#minInput,
+#maxInput {
+    margin-top: 0.5rem;
+    padding-left: 0px;
+}
+
+#price {
+    margin: 0.5rem;
+    padding-top: 0.45rem;
+    margin-right: -6px;
+}
+
+#rangeFilterCountMax,
+#rangeFilterCountMin {
+    border: 1px solid rgb(155, 155, 155);
+    width: 10rem;
+    position: relative;
+}
+
+#rangeFilterCount,
+#clearRangeFilter {
+    position: relative;
+    margin-top: 0.5rem;
+    padding-top: 3px;
+    border: 1px solid rgb(155, 155, 155);
+}
